@@ -1,0 +1,65 @@
+#upgradeShopPanel {
+    background-color: transparent;
+    border: none;
+    /* border-radius: 10px; */
+}
+
+#shopLabel {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#upgradeShopPanel {
+    background-color: transparent;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#upgradeShopScrollArea {
+    background-color: transparent;
+    border: none;
+}
+
+#upgradeWidget {
+    background-color: rgb(50, 50, 50);
+    border: 2px solid rgb(60, 60, 60);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#upgradeWidget:hover {
+    border-color: rgb(80, 80, 80);
+    background-color: rgb(55, 55, 55);
+}
+
+QLabel {
+    color: rgb(216, 216, 216);
+    font-size: 16px;
+}
+
+QLabel:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+QPushButton {
+    background-color: rgb(70, 70, 70);
+    color: rgb(216, 216, 216);
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid rgb(60, 60, 60);
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: rgb(80, 80, 80);
+    border-color: rgb(90, 90, 90);
+}
+
+QPushButton:pressed {
+    background-color: rgb(60, 60, 60);
+}
