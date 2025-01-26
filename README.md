@@ -1,0 +1,2 @@
+# VirtualMiner-X
+Simple clicker
