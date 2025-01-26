@@ -280,6 +280,7 @@ void MainWindow::processExchangeStep() {
     if (toWithdraw > 0) {
         int processed = std::min(oresPerTick, ore);
         ore -= processed;
+        toWithdraw -= processed;
         money += processed * exchangeRate;
         updateStats();
     } else {
